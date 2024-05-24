@@ -36,16 +36,16 @@
 
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyAQXhjMX7Dhvlm1EDrx5fxQSGomJqYQ1JE"
+            android:value="// key"
             />
         <meta-data android:name="com.facebook.sdk.ApplicationId" android:value="@string/facebook_app_id"/>
         <meta-data android:name="com.facebook.sdk.ClientToken" android:value="@string/facebook_client_token"/>
         <meta-data
             android:name="com.twitter.sdk.android.CONSUMER_KEY"
-            android:value="VkJYZk1hZTI4dVBLV3lucS1kZmI6MTpjaQ" />
+            android:value="// key " />
         <meta-data
             android:name="com.twitter.sdk.android.CONSUMER_SECRET"
-            android:value="hR0FBR8LPhDwnm1tnvChw4fUR4EBih4WepZsxmoXccFqOJnUR_" />
+            android:value="// key" />
 
         <activity
             android:name=".settings"

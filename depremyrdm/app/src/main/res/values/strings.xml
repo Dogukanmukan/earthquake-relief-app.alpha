@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">depremyrdm</string>
+    <string name="title_activity_maps">MapsActivity</string>
+    <string name="title_activity_maps2">MapsActivity2</string>
+    <string name="facebook_app_id">5674850729281549</string>
+    <string name="fb_login_protocol_scheme">fb1234</string>
+    <string name="facebook_client_token">763a3a8e3c44bd75b82acfa0a2899e37</string>
+    <string name="twitter_consumer_key">VkJYZk1hZTI4dVBLV3lucS1kZmI6MTpjaQ</string>
+    <string name="twitter_consumer_secret">hR0FBR8LPhDwnm1tnvChw4fUR4EBih4WepZsxmoXccFqOJnUR_</string>
+    <string name="kayit">KAYIT</string>
+
+
+</resources>

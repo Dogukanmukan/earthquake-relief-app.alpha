@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+
+    >
+
+    <ImageButton
+        android:id="@+id/haritagecisButton"
+        style="@android:style/Widget.Holo.ImageButton"
+        android:layout_width="291dp"
+        android:layout_height="196dp"
+        android:background="@drawable/buton_bg"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/mesaj"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.512"
+        app:srcCompat="@drawable/konum" />
+
+    <ImageButton
+        android:id="@+id/mesaj"
+        android:layout_width="272dp"
+        android:layout_height="236dp"
+        android:background="@drawable/emergency"
+        android:elevation="50dp"
+        android:padding="10dp"
+        android:shadowColor="#3E1406"
+        android:shadowDx="2"
+        android:shadowDy="2"
+        android:shadowRadius="3"
+        android:text="ACİL DURUM BUTONU"
+        android:textAlignment="center"
+        android:textColor="#070303"
+        android:textSize="20sp"
+        android:typeface="serif"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/insta"
+        style="@android:style/Widget.Holo.ImageButton"
+        android:layout_width="99dp"
+        android:layout_height="78dp"
+        android:background="@drawable/buton_bg"
+        android:scaleType="fitCenter"
+        android:text="Instagram"
+        app:layout_constraintBottom_toTopOf="@+id/ayar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mesaj"
+        app:layout_constraintVertical_bias="0.811"
+        app:srcCompat="@drawable/insta" />
+
+    <ImageButton
+        android:id="@+id/twit2"
+        style="@android:style/Widget.Holo.ImageButton"
+        android:layout_width="99dp"
+        android:layout_height="78dp"
+        android:background="@drawable/buton_bg"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/ayar"
+        app:layout_constraintEnd_toStartOf="@+id/insta"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mesaj"
+        app:layout_constraintVertical_bias="0.808"
+        app:srcCompat="@drawable/twit" />
+
+    <ImageButton
+        android:id="@+id/ayar"
+        android:layout_width="355dp"
+        android:layout_height="85dp"
+        android:onClick="ayarButtonClick"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.517"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mesaj"
+        app:layout_constraintVertical_bias="0.901"
+        app:srcCompat="@android:drawable/ic_input_add" />
+
+    <ImageButton
+        android:id="@+id/soundd"
+        android:layout_width="99dp"
+        android:layout_height="78dp"
+        android:background="@drawable/buton_bg"
+        android:scaleType="fitCenter"
+        app:layout_constraintBottom_toTopOf="@+id/ayar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.526"
+        app:layout_constraintStart_toEndOf="@+id/insta"
+        app:layout_constraintTop_toBottomOf="@+id/mesaj"
+        app:layout_constraintVertical_bias="0.808"
+        app:srcCompat="@drawable/sound" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

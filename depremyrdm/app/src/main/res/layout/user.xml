@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- activity_main.xml -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kullanıcı Bilgileri"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp"/>
+
+    <EditText
+        android:id="@+id/adEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="İsim" />
+
+    <EditText
+        android:id="@+id/soyadEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Soyisim" />
+
+    <EditText
+        android:id="@+id/telefonEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefon Numarası" />
+
+    <EditText
+        android:id="@+id/adresEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Adres" />
+
+    <Button
+        android:id="@+id/kayıtButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kaydet"
+        android:layout_marginTop="16dp" />
+
+    <Button
+        android:id="@+id/goruntuButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Görüntüle"
+        android:layout_marginTop="16dp" />
+
+</LinearLayout>
